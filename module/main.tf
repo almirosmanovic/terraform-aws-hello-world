@@ -11,7 +11,7 @@ provider "aws" {
 }
 
 module "test" {
-    source = "github.com/almirosmanovic/terraform-hello-world.git?ref=1.0.1"
+    source = "github.com/almirosmanovic/terraform-hello-world.git?ref=1.0.3"
     #version = "1.0.1"
 }
 
