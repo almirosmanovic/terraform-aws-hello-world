@@ -29,7 +29,7 @@ variable "ami" {
 }
 
 variable "sec_group" {
-  default = "security-grupa"
+  default = "security-sg"
   type = string
 
 }
