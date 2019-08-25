@@ -14,7 +14,7 @@ variable "server_port" {
   type        = number
   default     = 80
 }
-/*
+
 variable "aws_region" {
   default = "eu-west-1"
 }
@@ -28,9 +28,22 @@ variable "ami" {
 
 }
 
-variable "securitygroup" {
+variable "sec_group" {
   default = "security-grupa"
   type = string
 
 }
-*/
+
+variable "server_list_port" {
+  description = " The Server port list"
+  type = list(number)
+  default = [80, 8081, 8083]
+}
+
+variable "server_type" {
+  default = "t3.micro"
+}
+
+variable "instance_count" {
+  default = 2
+}
