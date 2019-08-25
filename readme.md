@@ -1,11 +1,10 @@
 # Terraform Hello World
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+[![AWS](https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2017/07/27/AWS_Logo_PoweredBy_127px.png)]()
 
 [![Build Status](https://travis-ci.org/almirosmanovic/terraform-hello-world.svg?branch=master)](https://https://travis-ci.org/almirosmanovic/terraform-hello-world)
 
-Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
-Hello World Terraform Script
+Here is simple terraform code how to build few stand-alone servers in default vpc, or just use it as a module.
 
 # Input Variables
 
