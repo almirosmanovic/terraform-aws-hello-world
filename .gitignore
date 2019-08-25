@@ -1,0 +1,10 @@
+
+single-web-server/.terraform/plugins/linux_amd64/lock.json
+single-web-server/.terraform/plugins/linux_amd64/terraform-provider-aws_v2.24.0_x4
+.terraform/plugins/linux_amd64/lock.json
+.terraform/plugins/linux_amd64/terraform-provider-aws_v2.24.0_x4
+terraform.tfstate.backup
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate
+module/.terraform/plugins/linux_amd64/lock.json

@@ -35,6 +35,12 @@ resource "aws_instance" "example" {
               curl http://169.254.169.254/latest/meta-data/instance-id >> /var/www/html/index.nginx-debian.html
               service nginx restart
               EOF
+
+    tags = {
+      
+      Name = "Hello World Version 1"
+  }
+
   
 }
 
