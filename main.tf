@@ -38,7 +38,7 @@ resource "aws_instance" "example" {
 
     tags = {
       
-      Name = "Hello World Version 1"
+      Name = "Hello World Version 2"
   }
 
   
