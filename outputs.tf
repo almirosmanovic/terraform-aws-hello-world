@@ -23,6 +23,10 @@ output "sec_group" {
   description = "The security group created"
 }
 
+outout "sec_group_id" {
+  value = aws_security_group.instance.id
+  description = "The security group ID created"
+}
 output "ami" {
   value = var.ami
   description = "The AMI used to create the instance"
