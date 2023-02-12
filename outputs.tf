@@ -12,4 +12,18 @@ output "instance_count" {
   value = var.instance_count
   description = "The number of instances created"
 }
-  
+
+output "instance_type" {
+  value = var.server_type
+  description = "The type of instance created"
+}
+
+output "sec_group" {
+  value = var.sec_group
+  description = "The security group created"
+}
+
+output "ami" {
+  value = var.ami
+  description = "The AMI used to create the instance"
+}
