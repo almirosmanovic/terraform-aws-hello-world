@@ -23,7 +23,8 @@ output "sec_group" {
   description = "The security group created"
 }
 
-outout "sec_group_id" {
+output "sec_group_id" {
+  type = "string"
   value = aws_security_group.instance.id
   description = "The security group ID created"
 }
