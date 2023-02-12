@@ -24,7 +24,6 @@ output "sec_group" {
 }
 
 output "sec_group_id" {
-  type = "string"
   value = aws_security_group.instance.id
   description = "The security group ID created"
 }
